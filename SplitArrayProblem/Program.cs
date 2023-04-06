@@ -57,7 +57,7 @@ namespace Split_array_problem
             if ((B.Count !=0 && C.Count !=0) && iterations == A.Length)
             {
                 if (B.Average() == C.Average())
-                    return true;
+                    return true;//If one solution is found, we will exit the function
                 else
                     return false;
             } 
