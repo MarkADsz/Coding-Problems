@@ -62,7 +62,7 @@ namespace Split_array_problem
                     return false;
             } 
 
-            //We generate two auxiliary lists for B and C, in which we will add the next element of a (depending where we are in the iteration)
+            //We generate two auxiliary lists for B and C, in which we will add the next element of A (depending where we are in the iteration)
             List<int> auxB = new List<int>(B);
             auxB.Add(A[iterations]);
             List<int> auxC = new List<int>(C);
