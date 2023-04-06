@@ -5,7 +5,7 @@ namespace Split_array_problem
     internal class Program
     {
         /// <summary>
-        /// Verifies if the elements of the lists l1 and l2 are the same, no matter the order
+        /// Verifies if the elements of the lists l1 and l2 are the same, no matter the order.
         /// </summary>
         /// <param name="l1">First list</param>
         /// <param name="l2">Second list</param>
@@ -68,7 +68,7 @@ namespace Split_array_problem
             List<int> auxC = new List<int>(C);
             auxC.Add(A[iterations]);
 
-            //We verify if the previously generated lists have already been found before in our visited list (that their elements are equal with thos of a previous list)
+            //We verify if the previously generated lists have already been found before in our visited list (that their elements are equal with those of a previous list)
             bool verifyAuxB = verifylistIterated(visited, auxB);
             bool verifyAuxC = verifylistIterated(visited, auxC);
 
