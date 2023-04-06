@@ -10,7 +10,7 @@ namespace Split_array_problem
         /// <param name="l1">First list</param>
         /// <param name="l2">Second list</param>
         /// <returns> True if the elements of the lists are the same; False otherwise. </returns>
-            private bool verifySameELems(List<int> l1, List<int> l2)
+        private bool verifySameELems(List<int> l1, List<int> l2)
         {
             return l1.ToHashSet().SetEquals(l2);
         }
