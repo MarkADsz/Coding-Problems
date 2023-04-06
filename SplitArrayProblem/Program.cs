@@ -34,7 +34,10 @@ namespace Split_array_problem
         }
 
         /// <summary>
-        /// 
+        /// This function tries to separate the elements of an input array A into two disjoint lists B and C such that 
+        /// the average of B is equal to the average of C. It does this by recursively generating all possible combinations
+        /// of B and C by adding one element from A to either B or C at each step, and checking if the new lists have been visited before
+        /// to avoid generating duplicate combinations. If a valid separation is found, it returns true; otherwise, it returns false.
         /// </summary>
         /// <param name="A">Our initial input Array</param>
         /// <param name="B">First list used for separation</param>
